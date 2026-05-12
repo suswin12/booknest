@@ -12,9 +12,9 @@ This project includes:
 - Google Books API Integration
 - MVC Architecture
 
-# 🚀 Features
+ Features
 
-## 👤 User Features
+ User Features
 
 - View all books
 - View book details
@@ -23,8 +23,7 @@ This project includes:
 - Responsive UI
 
 ---
-
-## 🔐 Admin Features
+ Admin Features
 
 - Admin Login
 - Admin Dashboard
@@ -35,7 +34,7 @@ This project includes:
 
 ---
 
-# 🛠 Technologies Used
+ Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -43,74 +42,39 @@ This project includes:
 | PHP | Server-side Language |
 | Blade | Frontend Templating |
 | MySQL | Database |
-| Bootstrap 5 | UI Design |
 | Google Books API | External API Integration |
 
----
 
-# 📂 Project Structure
 
-```bash
-app/
-├── Http/
-│   └── Controllers/
-├── Models/
+ Installation Steps
 
-resources/
-├── views/
+1 Clone Repository
 
-routes/
-└── web.php
-
-database/
-└── migrations/
-```
-
----
-
-# ⚙️ Installation Steps
-
-## 1️⃣ Clone Repository
-
-```bash
 git clone https://github.com/suswin12/booknest.git
-```
 
----
+2 Open Project Folder
 
-## 2️⃣ Open Project Folder
-
-```bash
 cd booknest
-```
 
----
+3 Install Dependencies
 
-## 3️⃣ Install Dependencies
-
-```bash
 composer install
-```
 
 ---
 
-## 4️⃣ Create Environment File
+4️ Create Environment File
 
-```bash
 copy .env.example .env
-```
 
 ---
 
-## 5️⃣ Generate Application Key
+5 Generate Application Key
 
-```bash
 php artisan key:generate
-```
 
 ---
 
-## 6️⃣ Configure Database
+6 Configure Database
 
 Open `.env` file and update:
 
@@ -123,19 +87,16 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
----
-
-## 7️⃣ Create Database
+7 Create Database
 
 Open phpMyAdmin and create database:
 
-```bash
 bookstore
-```
+
 
 ---
 
-## 8️⃣ Run Migrations
+8 Run Migrations
 
 ```bash
 php artisan migrate
@@ -143,7 +104,7 @@ php artisan migrate
 
 ---
 
-## 9️⃣ Start Laravel Server
+9 Start Laravel Server
 
 ```bash
 php artisan serve
@@ -151,22 +112,16 @@ php artisan serve
 
 Open in browser:
 
-```bash
 http://127.0.0.1:8000
-```
 
----
 
-# 🔑 Admin Login Credentials
+Admin Login Credentials
 
-```bash
 Email: admin@gmail.com
 Password: admin123
-```
 
----
 
-# 🌐 Google Books API
+ Google Books API
 
 This project uses Google Books API to fetch programming books dynamically.
 
@@ -178,7 +133,7 @@ https://www.googleapis.com/books/v1/volumes?q=programming
 
 ---
 
-# 🧠 MVC Architecture Used
+#  MVC Architecture Used
 
 ## Model
 Handles database operations.
@@ -218,18 +173,7 @@ AdminController.php
 - Book Details Page
 - Cart Page
 
----
 
-# 🔥 Future Improvements
-
-- User Registration
-- Checkout System
-- Payment Gateway
-- Search Feature
-- Wishlist
-- Category Filters
-
----
 
 # 👨‍💻 Author
 
