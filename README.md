@@ -1,2 +1,239 @@
 # booknest
-Simple Laravel Book Store application with Admin Dashboard, Add To Cart, Google Books API integration, and MVC architecture.
+BookNest is a simple Laravel Book Store web application developed using Laravel, Blade Templates, MySQL, Bootstrap, and Google Books API.
+
+This project includes:
+
+- User Home Page
+- Book Details Page
+- Add To Cart
+- Login System
+- Admin Dashboard
+- CRUD Operations
+- Google Books API Integration
+- MVC Architecture
+
+# 🚀 Features
+
+## 👤 User Features
+
+- View all books
+- View book details
+- Add books to cart
+- Login required for cart access
+- Responsive UI
+
+---
+
+## 🔐 Admin Features
+
+- Admin Login
+- Admin Dashboard
+- Add Book
+- Edit Book
+- Delete Book
+- Manage Price & Availability
+
+---
+
+# 🛠 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Laravel | Backend Framework |
+| PHP | Server-side Language |
+| Blade | Frontend Templating |
+| MySQL | Database |
+| Bootstrap 5 | UI Design |
+| Google Books API | External API Integration |
+
+---
+
+# 📂 Project Structure
+
+```bash
+app/
+├── Http/
+│   └── Controllers/
+├── Models/
+
+resources/
+├── views/
+
+routes/
+└── web.php
+
+database/
+└── migrations/
+```
+
+---
+
+# ⚙️ Installation Steps
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/suswin12/booknest.git
+```
+
+---
+
+## 2️⃣ Open Project Folder
+
+```bash
+cd booknest
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+composer install
+```
+
+---
+
+## 4️⃣ Create Environment File
+
+```bash
+copy .env.example .env
+```
+
+---
+
+## 5️⃣ Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+---
+
+## 6️⃣ Configure Database
+
+Open `.env` file and update:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=bookstore
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+## 7️⃣ Create Database
+
+Open phpMyAdmin and create database:
+
+```bash
+bookstore
+```
+
+---
+
+## 8️⃣ Run Migrations
+
+```bash
+php artisan migrate
+```
+
+---
+
+## 9️⃣ Start Laravel Server
+
+```bash
+php artisan serve
+```
+
+Open in browser:
+
+```bash
+http://127.0.0.1:8000
+```
+
+---
+
+# 🔑 Admin Login Credentials
+
+```bash
+Email: admin@gmail.com
+Password: admin123
+```
+
+---
+
+# 🌐 Google Books API
+
+This project uses Google Books API to fetch programming books dynamically.
+
+API Used:
+
+```bash
+https://www.googleapis.com/books/v1/volumes?q=programming
+```
+
+---
+
+# 🧠 MVC Architecture Used
+
+## Model
+Handles database operations.
+
+```bash
+Book.php
+```
+
+---
+
+## View
+Handles frontend UI using Blade Templates.
+
+```bash
+home.blade.php
+cart.blade.php
+dashboard.blade.php
+```
+
+---
+
+## Controller
+Handles business logic.
+
+```bash
+BookController.php
+AdminController.php
+```
+
+---
+
+# 📸 Project Pages
+
+- Home Page
+- Login Page
+- Admin Dashboard
+- Book Details Page
+- Cart Page
+
+---
+
+# 🔥 Future Improvements
+
+- User Registration
+- Checkout System
+- Payment Gateway
+- Search Feature
+- Wishlist
+- Category Filters
+
+---
+
+# 👨‍💻 Author
+
+Developed by **Suswin Prasath**
+
+GitHub:
+https://github.com/suswin12
