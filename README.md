@@ -179,5 +179,5 @@ AdminController.php
 
 Developed by **Suswin Prasath**
 
-GitHub:
+GitHub :
 https://github.com/suswin12
